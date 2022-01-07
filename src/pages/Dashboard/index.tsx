@@ -73,7 +73,7 @@ function Dashboard() {
   }
 
   const toggleEditModal = () => {
-    setModalOpen(!editModalOpen);
+    setEditModalOpen(!editModalOpen);
   }
 
   const handleEditFood = (food: FoodTypes) => {
